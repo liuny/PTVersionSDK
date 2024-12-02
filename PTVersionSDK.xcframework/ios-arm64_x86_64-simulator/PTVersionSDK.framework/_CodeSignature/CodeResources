@@ -12,29 +12,29 @@
 		<data>
 		MqvJuaZ5u6YnSvbhYs6QRNXep34=
 		</data>
-		<key>Modules/PTVersionSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/PTVersionSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		G7PODvDI+XUhK+bRvIfbPbKdr+I=
+		493uxwuJ9G1Q0lHOw2fJTUgddSw=
 		</data>
-		<key>Modules/PTVersionSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>Modules/PTVersionSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
 		ZaQ95eKxpJmTBZfv1CJ7lhFKwlg=
 		</data>
-		<key>Modules/PTVersionSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/PTVersionSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		oxBFqqI1uieZzxKxJEcmTnvuxBg=
+		qxr6FjbuR6/7Z66OTaU4gMTcWgo=
 		</data>
-		<key>Modules/PTVersionSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/PTVersionSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		DyEv1SLGaHFMtw9ZSGHLhKFzQ9w=
+		DGBcDc3W1vFtWxQGbfV94c4q668=
 		</data>
-		<key>Modules/PTVersionSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/PTVersionSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		oxBFqqI1uieZzxKxJEcmTnvuxBg=
+		qxr6FjbuR6/7Z66OTaU4gMTcWgo=
 		</data>
-		<key>Modules/PTVersionSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/PTVersionSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		15K/akg7RCuJndJzF1HoQM60K3E=
+		r2sWOzZnyxKw5V/ky63v3IZKsMY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,18 +54,18 @@
 			Y0PvZHB37+0lRwz+PlPHrc+yt+zKoYDHkZV3edbEv9Q=
 			</data>
 		</dict>
-		<key>Modules/PTVersionSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/PTVersionSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			G7PODvDI+XUhK+bRvIfbPbKdr+I=
+			493uxwuJ9G1Q0lHOw2fJTUgddSw=
 			</data>
 			<key>hash2</key>
 			<data>
-			j/Lm+m/qUprodETNYsK4Z50i3pEyHdJQScUG+EFmvko=
+			zvsYn+TmZ0QgWemyTWpz7VyRsjMnqA2uEB1sFKGzLws=
 			</data>
 		</dict>
-		<key>Modules/PTVersionSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>Modules/PTVersionSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -76,48 +76,48 @@
 			SU2z2rVtq71uDH1nSse4QNrJtVv/rsjj39gb6pfMiXA=
 			</data>
 		</dict>
-		<key>Modules/PTVersionSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/PTVersionSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oxBFqqI1uieZzxKxJEcmTnvuxBg=
+			qxr6FjbuR6/7Z66OTaU4gMTcWgo=
 			</data>
 			<key>hash2</key>
 			<data>
-			MTPB/rwdrNuutT9Yal1gxkyy29nUhvgScxPl89/kxd0=
+			yXVMj5tYLFcn0jOjqseVym7qOUbzGUpr46H88DP/Swk=
 			</data>
 		</dict>
-		<key>Modules/PTVersionSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/PTVersionSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DyEv1SLGaHFMtw9ZSGHLhKFzQ9w=
+			DGBcDc3W1vFtWxQGbfV94c4q668=
 			</data>
 			<key>hash2</key>
 			<data>
-			ArJMh9LY4F9mp0zO5fcnwQvIchkHe/6ncJ8UC0xOFLQ=
+			nsM+g41C9EGrGL4tzK3RoeW7/iLGPkKsXXW51gFoX3I=
 			</data>
 		</dict>
-		<key>Modules/PTVersionSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/PTVersionSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oxBFqqI1uieZzxKxJEcmTnvuxBg=
+			qxr6FjbuR6/7Z66OTaU4gMTcWgo=
 			</data>
 			<key>hash2</key>
 			<data>
-			MTPB/rwdrNuutT9Yal1gxkyy29nUhvgScxPl89/kxd0=
+			yXVMj5tYLFcn0jOjqseVym7qOUbzGUpr46H88DP/Swk=
 			</data>
 		</dict>
-		<key>Modules/PTVersionSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/PTVersionSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			15K/akg7RCuJndJzF1HoQM60K3E=
+			r2sWOzZnyxKw5V/ky63v3IZKsMY=
 			</data>
 			<key>hash2</key>
 			<data>
-			8RuG65OGsCTtwJdJjBufbL0S0hfw+F8mAlXLM0vOpDU=
+			/lkcPWcGKH73eSVT1Zojmfbp9zmFvY4kwYd3E+MZ44E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
