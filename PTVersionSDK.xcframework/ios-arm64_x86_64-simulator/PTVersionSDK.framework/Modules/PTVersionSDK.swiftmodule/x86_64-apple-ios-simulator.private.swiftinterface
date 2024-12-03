@@ -4,17 +4,10 @@
 import Foundation
 @_exported import PTVersionSDK
 import Swift
-import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@objc @_inheritsConvenienceInitializers public class PTVersionManager : ObjectiveC.NSObject {
-  @objc public static let shared: PTVersionSDK.PTVersionManager
-  @objc public func setup(appId: Swift.String, deviceId: Swift.String)
-  @objc public func doCheck(url: Swift.String, userId: Swift.UInt64, presentVC: UIKit.UIViewController)
-  @objc public func doReport(url: Swift.String)
-  public func clearCache()
-  public func testPrint(view: UIKit.UIView)
-  @objc override dynamic public init()
+@_hasMissingDesignatedInitializers public class TestManager {
+  public class func testPrint()
   @objc deinit
 }

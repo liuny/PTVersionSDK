@@ -15,285 +15,40 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PTVersionSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PTVersionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PTVersionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PTVersionSDK"
-      },
-      {
         "kind": "TypeDecl",
-        "name": "PTVersionManager",
-        "printedName": "PTVersionManager",
+        "name": "TestManager",
+        "printedName": "TestManager",
         "children": [
-          {
-            "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PTVersionManager",
-                "printedName": "PTVersionSDK.PTVersionManager",
-                "usr": "c:@M@PTVersionSDK@objc(cs)PTVersionManager"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@PTVersionSDK@objc(cs)PTVersionManager(cpy)shared",
-            "mangledName": "$s12PTVersionSDK0A7ManagerC6sharedACvpZ",
-            "moduleName": "PTVersionSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PTVersionManager",
-                    "printedName": "PTVersionSDK.PTVersionManager",
-                    "usr": "c:@M@PTVersionSDK@objc(cs)PTVersionManager"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PTVersionSDK@objc(cs)PTVersionManager(cm)shared",
-                "mangledName": "$s12PTVersionSDK0A7ManagerC6sharedACvgZ",
-                "moduleName": "PTVersionSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "setup",
-            "printedName": "setup(appId:deviceId:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@PTVersionSDK@objc(cs)PTVersionManager(im)setupWithAppId:deviceId:",
-            "mangledName": "$s12PTVersionSDK0A7ManagerC5setup5appId06deviceF0ySS_SStF",
-            "moduleName": "PTVersionSDK",
-            "objc_name": "setupWithAppId:deviceId:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "doCheck",
-            "printedName": "doCheck(url:userId:presentVC:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UInt64",
-                "printedName": "Swift.UInt64",
-                "usr": "s:s6UInt64V"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@PTVersionSDK@objc(cs)PTVersionManager(im)doCheckWithUrl:userId:presentVC:",
-            "mangledName": "$s12PTVersionSDK0A7ManagerC7doCheck3url6userId9presentVCySS_s6UInt64VSo16UIViewControllerCtF",
-            "moduleName": "PTVersionSDK",
-            "objc_name": "doCheckWithUrl:userId:presentVC:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "doReport",
-            "printedName": "doReport(url:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@PTVersionSDK@objc(cs)PTVersionManager(im)doReportWithUrl:",
-            "mangledName": "$s12PTVersionSDK0A7ManagerC8doReport3urlySS_tF",
-            "moduleName": "PTVersionSDK",
-            "objc_name": "doReportWithUrl:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "clearCache",
-            "printedName": "clearCache()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12PTVersionSDK0A7ManagerC10clearCacheyyF",
-            "mangledName": "$s12PTVersionSDK0A7ManagerC10clearCacheyyF",
-            "moduleName": "PTVersionSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
           {
             "kind": "Function",
             "name": "testPrint",
-            "printedName": "testPrint(view:)",
+            "printedName": "testPrint()",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIView",
-                "printedName": "UIKit.UIView",
-                "usr": "c:objc(cs)UIView"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12PTVersionSDK0A7ManagerC9testPrint4viewySo6UIViewC_tF",
-            "mangledName": "$s12PTVersionSDK0A7ManagerC9testPrint4viewySo6UIViewC_tF",
+            "usr": "s:12PTVersionSDK11TestManagerC9testPrintyyFZ",
+            "mangledName": "$s12PTVersionSDK11TestManagerC9testPrintyyFZ",
             "moduleName": "PTVersionSDK",
+            "static": true,
             "declAttributes": [
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PTVersionManager",
-                "printedName": "PTVersionSDK.PTVersionManager",
-                "usr": "c:@M@PTVersionSDK@objc(cs)PTVersionManager"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@PTVersionSDK@objc(cs)PTVersionManager(im)init",
-            "mangledName": "$s12PTVersionSDK0A7ManagerCACycfc",
-            "moduleName": "PTVersionSDK",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@PTVersionSDK@objc(cs)PTVersionManager",
-        "mangledName": "$s12PTVersionSDK0A7ManagerC",
+        "usr": "s:12PTVersionSDK11TestManagerC",
+        "mangledName": "$s12PTVersionSDK11TestManagerC",
         "moduleName": "PTVersionSDK",
         "declAttributes": [
-          "AccessControl",
-          "ObjC"
+          "AccessControl"
         ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
+        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -308,55 +63,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       }

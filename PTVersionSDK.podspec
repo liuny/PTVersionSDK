@@ -19,10 +19,12 @@ Pod::Spec.new do |spec|
 
   spec.author       = { "liuny" => "15989203850@163.com" }
   spec.platform     = :ios, "13.0"
+  spec.swift_version = '5.0'
   spec.source       = { :git => "https://github.com/liuny/PTVersionSDK.git", :tag => "#{spec.version}" }
 
-  spec.vendored_frameworks = "PTVersionSDK.xcframework"
-
+  spec.ios.vendored_frameworks = "PTVersionSDK.xcframework"
+  
+  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   spec.user_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
   spec.pod_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
 end
