@@ -6,19 +6,35 @@
 	<dict>
 		<key>Headers/PTVersionSDK.h</key>
 		<data>
-		ZN0Nk5uEYy1IT/q/KVuc4947UlQ=
+		nffrywR1BrEtl0+Ona0MM4CPM8w=
 		</data>
 		<key>Info.plist</key>
 		<data>
 		MqvJuaZ5u6YnSvbhYs6QRNXep34=
 		</data>
-		<key>Modules/PTVersionSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/PTVersionSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		493uxwuJ9G1Q0lHOw2fJTUgddSw=
+		w1V4WfOqXw448424+cwsOb33jcw=
+		</data>
+		<key>Modules/PTVersionSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		oxBFqqI1uieZzxKxJEcmTnvuxBg=
+		</data>
+		<key>Modules/PTVersionSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		DyEv1SLGaHFMtw9ZSGHLhKFzQ9w=
+		</data>
+		<key>Modules/PTVersionSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		oxBFqqI1uieZzxKxJEcmTnvuxBg=
+		</data>
+		<key>Modules/PTVersionSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		ukc4Sxaiemrygrukq3XH46geMaM=
 		</data>
 		<key>Modules/PTVersionSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ZaQ95eKxpJmTBZfv1CJ7lhFKwlg=
+		w1V4WfOqXw448424+cwsOb33jcw=
 		</data>
 		<key>Modules/PTVersionSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,7 +50,7 @@
 		</data>
 		<key>Modules/PTVersionSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		r2sWOzZnyxKw5V/ky63v3IZKsMY=
+		D/enI27XcWxzEknDQmHsBVReBlw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,33 +63,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZN0Nk5uEYy1IT/q/KVuc4947UlQ=
+			nffrywR1BrEtl0+Ona0MM4CPM8w=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y0PvZHB37+0lRwz+PlPHrc+yt+zKoYDHkZV3edbEv9Q=
+			2hGWo4OGLSA6Msw1ACYQE/yu0N7qUFi/A9lC2GoE0AY=
 			</data>
 		</dict>
-		<key>Modules/PTVersionSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/PTVersionSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			493uxwuJ9G1Q0lHOw2fJTUgddSw=
+			w1V4WfOqXw448424+cwsOb33jcw=
 			</data>
 			<key>hash2</key>
 			<data>
-			zvsYn+TmZ0QgWemyTWpz7VyRsjMnqA2uEB1sFKGzLws=
+			iWlfcj9TlI+LpHjv7B3A4EO4xxELpxQAjFPJKHxJDf8=
+			</data>
+		</dict>
+		<key>Modules/PTVersionSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oxBFqqI1uieZzxKxJEcmTnvuxBg=
+			</data>
+			<key>hash2</key>
+			<data>
+			MTPB/rwdrNuutT9Yal1gxkyy29nUhvgScxPl89/kxd0=
+			</data>
+		</dict>
+		<key>Modules/PTVersionSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DyEv1SLGaHFMtw9ZSGHLhKFzQ9w=
+			</data>
+			<key>hash2</key>
+			<data>
+			ArJMh9LY4F9mp0zO5fcnwQvIchkHe/6ncJ8UC0xOFLQ=
+			</data>
+		</dict>
+		<key>Modules/PTVersionSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oxBFqqI1uieZzxKxJEcmTnvuxBg=
+			</data>
+			<key>hash2</key>
+			<data>
+			MTPB/rwdrNuutT9Yal1gxkyy29nUhvgScxPl89/kxd0=
+			</data>
+		</dict>
+		<key>Modules/PTVersionSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ukc4Sxaiemrygrukq3XH46geMaM=
+			</data>
+			<key>hash2</key>
+			<data>
+			p7mXvXex04zK/1PpVuUNqtA5HyPPRWeFzHI5lpwLJ40=
 			</data>
 		</dict>
 		<key>Modules/PTVersionSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZaQ95eKxpJmTBZfv1CJ7lhFKwlg=
+			w1V4WfOqXw448424+cwsOb33jcw=
 			</data>
 			<key>hash2</key>
 			<data>
-			SU2z2rVtq71uDH1nSse4QNrJtVv/rsjj39gb6pfMiXA=
+			iWlfcj9TlI+LpHjv7B3A4EO4xxELpxQAjFPJKHxJDf8=
 			</data>
 		</dict>
 		<key>Modules/PTVersionSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -113,11 +173,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			r2sWOzZnyxKw5V/ky63v3IZKsMY=
+			D/enI27XcWxzEknDQmHsBVReBlw=
 			</data>
 			<key>hash2</key>
 			<data>
-			/lkcPWcGKH73eSVT1Zojmfbp9zmFvY4kwYd3E+MZ44E=
+			ewezM6+LsGIoXPE3j6/J3XtBpXqONjf5ke4z2koGYlE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
