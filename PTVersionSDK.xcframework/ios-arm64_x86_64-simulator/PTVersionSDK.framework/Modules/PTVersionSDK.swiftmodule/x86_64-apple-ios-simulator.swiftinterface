@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
 // swift-module-flags: -target x86_64-apple-ios18.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PTVersionSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Foundation
 @_exported import PTVersionSDK
 import Swift
@@ -9,5 +10,10 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers public class TestManager {
   public class func testPrint()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class TestManagerObject : ObjectiveC.NSObject {
+  @objc public class func testPrint()
+  @objc override dynamic public init()
   @objc deinit
 }

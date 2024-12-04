@@ -4,3 +4,8 @@ framework module PTVersionSDK {
 
   module * { export * }
 }
+
+module PTVersionSDK.Swift {
+  header "PTVersionSDK-Swift.h"
+  requires objc
+}

@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "PTVersionSDK"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "内部使用版本管理"
   spec.description  = <<-DESC
     内部使用版本管理
@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
 
   spec.author       = { "liuny" => "15989203850@163.com" }
   spec.platform     = :ios, "13.0"
-  spec.swift_version = '5.0'
+  
   spec.source       = { :git => "https://github.com/liuny/PTVersionSDK.git", :tag => "#{spec.version}" }
 
   spec.ios.vendored_frameworks = "PTVersionSDK.xcframework"
