@@ -10,7 +10,7 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers public class TestManager {
-  public class func testPrint()
+  @objc public class func testPrint()
   public class func startNetListen()
   public class func printCurrNet()
   @objc deinit
