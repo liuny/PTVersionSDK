@@ -1,7 +1,7 @@
 framework module PTVersionSDK {
   umbrella header "PTVersionSDK.h"
-  export *
 
+  export *
   module * { export * }
 }
 
