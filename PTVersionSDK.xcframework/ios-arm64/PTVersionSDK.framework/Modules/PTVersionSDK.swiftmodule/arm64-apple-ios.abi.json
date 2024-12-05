@@ -15,6 +15,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "PTVersionSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "TestManager",
         "printedName": "TestManager",
@@ -33,6 +40,48 @@
             "declKind": "Func",
             "usr": "s:12PTVersionSDK11TestManagerC9testPrintyyFZ",
             "mangledName": "$s12PTVersionSDK11TestManagerC9testPrintyyFZ",
+            "moduleName": "PTVersionSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startNetListen",
+            "printedName": "startNetListen()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PTVersionSDK11TestManagerC14startNetListenyyFZ",
+            "mangledName": "$s12PTVersionSDK11TestManagerC14startNetListenyyFZ",
+            "moduleName": "PTVersionSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "printCurrNet",
+            "printedName": "printCurrNet()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PTVersionSDK11TestManagerC12printCurrNetyyFZ",
+            "mangledName": "$s12PTVersionSDK11TestManagerC12printCurrNetyyFZ",
             "moduleName": "PTVersionSDK",
             "static": true,
             "declAttributes": [
