@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "PTVersionSDK"
-  spec.version      = "0.0.7"
+  spec.version      = "0.0.8"
   spec.summary      = "内部使用版本管理"
   spec.description  = <<-DESC
     内部使用版本管理
