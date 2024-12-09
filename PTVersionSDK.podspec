@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "PTVersionSDK"
-  spec.version      = "0.0.8"
+  spec.version      = "1.0.0"
   spec.summary      = "内部使用版本管理"
   spec.description  = <<-DESC
     内部使用版本管理
@@ -26,6 +26,6 @@ Pod::Spec.new do |spec|
   
   #spec.dependency 'Alamofire'
   
-  spec.user_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
-  spec.pod_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
+  #spec.user_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
+  #spec.pod_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
 end
