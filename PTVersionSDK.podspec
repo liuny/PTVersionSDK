@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
     内部使用版本管理
                    DESC
   spec.homepage     = "https://github.com/liuny/PTVersionSDK"
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
   spec.author       = { "liuny" => "15989203850@163.com" }
   spec.platform     = :ios, "13.0"
