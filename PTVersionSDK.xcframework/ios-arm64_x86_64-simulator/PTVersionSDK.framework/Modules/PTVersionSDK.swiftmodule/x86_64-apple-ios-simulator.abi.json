@@ -229,32 +229,6 @@
             "funcSelfKind": "NonMutating"
           },
           {
-            "kind": "Function",
-            "name": "testPrint",
-            "printedName": "testPrint(view:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIView",
-                "printedName": "UIKit.UIView",
-                "usr": "c:objc(cs)UIView"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12PTVersionSDK0A7ManagerC9testPrint4viewySo6UIViewC_tF",
-            "mangledName": "$s12PTVersionSDK0A7ManagerC9testPrint4viewySo6UIViewC_tF",
-            "moduleName": "PTVersionSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
